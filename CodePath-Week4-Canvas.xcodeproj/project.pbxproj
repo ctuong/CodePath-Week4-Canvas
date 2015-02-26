@@ -14,6 +14,8 @@
 		EBE13F9F1A9EC6A800BD7A5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE13F9E1A9EC6A800BD7A5A /* Images.xcassets */; };
 		EBE13FA21A9EC6A800BD7A5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE13FA01A9EC6A800BD7A5A /* LaunchScreen.xib */; };
 		EBE13FAE1A9EC6A800BD7A5A /* CodePath_Week4_CanvasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE13FAD1A9EC6A800BD7A5A /* CodePath_Week4_CanvasTests.m */; };
+		EBE13FBA1A9EC71C00BD7A5A /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE13FB81A9EC71C00BD7A5A /* CanvasViewController.m */; };
+		EBE13FBB1A9EC71C00BD7A5A /* CanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBE13FB91A9EC71C00BD7A5A /* CanvasViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		EBE13FA71A9EC6A800BD7A5A /* CodePath-Week4-CanvasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CodePath-Week4-CanvasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBE13FAC1A9EC6A800BD7A5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBE13FAD1A9EC6A800BD7A5A /* CodePath_Week4_CanvasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodePath_Week4_CanvasTests.m; sourceTree = "<group>"; };
+		EBE13FB71A9EC71C00BD7A5A /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		EBE13FB81A9EC71C00BD7A5A /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		EBE13FB91A9EC71C00BD7A5A /* CanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanvasViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				EBE13F9E1A9EC6A800BD7A5A /* Images.xcassets */,
 				EBE13FA01A9EC6A800BD7A5A /* LaunchScreen.xib */,
 				EBE13F911A9EC6A800BD7A5A /* Supporting Files */,
+				EBE13FB71A9EC71C00BD7A5A /* CanvasViewController.h */,
+				EBE13FB81A9EC71C00BD7A5A /* CanvasViewController.m */,
+				EBE13FB91A9EC71C00BD7A5A /* CanvasViewController.xib */,
 			);
 			path = "CodePath-Week4-Canvas";
 			sourceTree = "<group>";
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE13FBB1A9EC71C00BD7A5A /* CanvasViewController.xib in Resources */,
 				EBE13F9D1A9EC6A800BD7A5A /* Main.storyboard in Resources */,
 				EBE13FA21A9EC6A800BD7A5A /* LaunchScreen.xib in Resources */,
 				EBE13F9F1A9EC6A800BD7A5A /* Images.xcassets in Resources */,
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE13FBA1A9EC71C00BD7A5A /* CanvasViewController.m in Sources */,
 				EBE13F9A1A9EC6A800BD7A5A /* ViewController.m in Sources */,
 				EBE13F971A9EC6A800BD7A5A /* AppDelegate.m in Sources */,
 				EBE13F941A9EC6A800BD7A5A /* main.m in Sources */,

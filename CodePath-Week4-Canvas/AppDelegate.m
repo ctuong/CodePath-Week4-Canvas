@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "CanvasViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    CanvasViewController *cvc = [[CanvasViewController alloc] init];
+    self.window.rootViewController = cvc;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
